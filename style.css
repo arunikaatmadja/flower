@@ -20,6 +20,21 @@ body {
   perspective: 1000px;
 }
 
+.flower-container {
+    position: relative;
+}
+
+.flower-text {
+    position: absolute;
+    top: 20px; /* Atur posisi vertikal sesuai kebutuhan */
+    left: 50%;
+    transform: translateX(-50%);
+    color: blue; /* Warna teks */
+    font-size: 24px; /* Ukuran font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
+}
+
+
 .night {
   position: fixed;
   left: 50%;
